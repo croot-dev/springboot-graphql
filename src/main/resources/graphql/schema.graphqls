@@ -1,0 +1,14 @@
+schema{
+    query: Query
+}
+
+type Member{
+    id: ID!
+    name: String!
+    age: Int!
+}
+
+type Query{
+    getMember(id: ID!): Member
+    getAllMembers: [Member]
+}

@@ -1,4 +1,4 @@
-package com.croot.achro.service;
+package com.croot.graphql.service;
 
 import graphql.kickstart.tools.GraphQLQueryResolver;
 
@@ -6,8 +6,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.croot.achro.model.Member;
-import com.croot.achro.repository.MemberRepository;
+import com.croot.graphql.model.Member;
+import com.croot.graphql.repository.MemberRepository;
 
 @Service
 public class MemberService implements GraphQLQueryResolver {
@@ -22,5 +22,4 @@ public class MemberService implements GraphQLQueryResolver {
     public Member getMember(Integer id){
         return memberRepository.findById(id).get();
     }
-
 }

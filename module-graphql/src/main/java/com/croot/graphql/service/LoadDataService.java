@@ -1,9 +1,10 @@
-package com.croot.achro.service;
+package com.croot.graphql.service;
 
-import com.croot.achro.model.Member;
-import com.croot.achro.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.croot.graphql.model.Member;
+import com.croot.graphql.repository.MemberRepository;
 
 import jakarta.annotation.PostConstruct;
 

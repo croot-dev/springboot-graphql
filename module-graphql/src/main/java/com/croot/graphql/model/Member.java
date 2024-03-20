@@ -1,4 +1,4 @@
-package com.croot.achro.model;
+package com.croot.graphql.model;
 
 import lombok.Getter;
 import lombok.Setter;

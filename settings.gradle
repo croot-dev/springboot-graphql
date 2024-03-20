@@ -1,1 +1,2 @@
-rootProject.name = 'achro'
+include ":module-graphql"
+include ":module-rest"
